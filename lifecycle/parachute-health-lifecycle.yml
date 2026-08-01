@@ -1,0 +1,19 @@
+generated: '2026-07-20'
+method: searched
+source: https://status.parachutehealth.com/
+# Parachute Health publishes no public API/developer portal, so there is no
+# public versioning, deprecation, or SLA policy to capture. The one public
+# operational-transparency surface is an Atlassian Statuspage.
+status_page: https://status.parachutehealth.com/
+status_page_provider: Atlassian Statuspage
+status_page_components:
+- name: Platform
+  status: operational
+versioning: null
+deprecation: null
+sla: null
+notes: >-
+  Status page shows a single "Platform" component with 100% uptime over the
+  trailing 90 days. No public deprecation policy, Sunset/Deprecation header
+  support, or SLA document is published (integration is delivered as private
+  EMR/HL7/FHIR interfaces, not a public API).

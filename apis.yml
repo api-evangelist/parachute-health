@@ -1,9 +1,29 @@
 aid: parachute-health
 name: Parachute Health
-description: 'Parachute Health is a company surfaced as a portfolio company of insight-partners and added
-  to the API Evangelist network as a stub for enrichment. Sector: healthcare. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: >-
+  Parachute Health is the leading digital platform for durable medical equipment
+  (DME), home medical equipment, and medical supply ePrescribing. Clinicians
+  eSign and submit DME orders in seconds, and the platform coordinates in real
+  time across a network of 3,000+ supplier locations, 270,000+ eSigning
+  clinicians, and 70,000+ facilities in all 50 states. Parachute integrates with
+  EHR/EMR systems (athenahealth, PointClickCare, Epic, and others) using HL7 2.x
+  and FHIR interfaces, and offers prior-authorization automation, health-plan
+  workflows, and value-based-care coordination. Integration is delivered as
+  private, partner-provisioned EMR/HL7/FHIR interfaces rather than a public
+  self-service developer API.
 url: https://raw.githubusercontent.com/api-evangelist/parachute-health/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://cdn.production.parachutehealth.io/public-web/wp-content/uploads/cropped-Brand-Guidelines-Favicon-2.png
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -12,10 +32,18 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
 - Healthcare
+- DME
+- ePrescribing
+- Medical Equipment
+- Health IT
+- Interoperability
+- FHIR
+- HL7
+- Prior Authorization
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +53,28 @@ maintainers:
 common:
 - type: Website
   url: https://www.parachutehealth.com/
+- type: Blog
+  url: https://www.parachutehealth.com/blog
+- type: Support
+  url: https://www.parachutehealth.com/contact
+- type: PrivacyPolicy
+  url: https://www.parachutehealth.com/privacy-policy
+- type: TermsOfService
+  url: https://www.parachutehealth.com/terms-of-service
+- type: GitHubOrganization
+  url: https://github.com/parachutehealth
+- type: StatusPage
+  url: https://status.parachutehealth.com/
+- type: Lifecycle
+  url: lifecycle/parachute-health-lifecycle.yml
+- type: TrustCenter
+  url: https://www.parachutehealth.com/security-and-compliance/
+- type: Compliance
+  url: https://www.parachutehealth.com/security-and-compliance/
+- type: DomainSecurity
+  url: security/parachute-health-domain-security.yml
+x-enrichment:
+  date: '2026-07-20'
+  status: enriched
+  artifacts_added: 3
+  pass: local-v1

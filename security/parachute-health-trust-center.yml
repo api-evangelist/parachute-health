@@ -1,0 +1,27 @@
+generated: '2026-07-20'
+method: searched
+probe: true
+source: https://www.parachutehealth.com/security-and-compliance/
+url: https://www.parachutehealth.com/security-and-compliance/
+# Certifications held by Parachute Health itself. AWS-only certs the page
+# attributes to its hosting provider (FedRAMP / ISO 27001) are intentionally
+# excluded to avoid over-claiming; GDPR was a keyword false-positive.
+certifications:
+- HITRUST r2
+- SOC 2 Type II
+- SOC 1 Type II
+- HIPAA
+security_contact: security@parachutehealth.com
+notes: >-
+  Security & compliance page describes annual third-party penetration testing,
+  daily internal vulnerability scanning, SAST/DAST, mandatory HIPAA training,
+  and disaster-recovery exercises. No public bug-bounty or formal responsible-
+  disclosure program is published; security@parachutehealth.com is the stated
+  contact for security concerns.
+evidence:
+- source: https://www.parachutehealth.com/security-and-compliance/
+  keywords:
+  - hitrust r2
+  - soc 2 type ii
+  - soc 1 type ii
+  - hipaa
